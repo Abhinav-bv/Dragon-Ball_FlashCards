@@ -1,0 +1,12 @@
+.stApp { background: radial-gradient(ellipse at 90% 0%, #312037 0%, transparent 50%), #0c101a; }
+.block-container { max-width: 1200px; padding-top: 3rem; }
+.eyebrow { color: #ffb45e; font-weight: 700; letter-spacing: .23em; font-size: .8rem; }
+h1 { letter-spacing: -.045em; }
+div[data-testid="stVerticalBlockBorderWrapper"] > div { background: linear-gradient(145deg, #1a2030, #101623); border-radius: 18px; }
+div[data-testid="stImage"] img { height: 310px; object-fit: contain; filter: drop-shadow(0 14px 22px rgba(0,0,0,.35)); }
+div[data-testid="stMetricValue"] { font-size: 1.8rem; color: #ffb45e; }
+section[data-testid="stSidebar"] { background: #101624; }
+@media (max-width: 640px) {
+  .block-container { padding-top: 2rem; }
+  div[data-testid="stImage"] img { height: 240px; }
+}
